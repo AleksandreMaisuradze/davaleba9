@@ -18,10 +18,9 @@
 }
 
 .logo_div {
-    width: calc(175 / 1180 * 100%);
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 14px;
 }
 
 .header_logo {
@@ -37,19 +36,14 @@
 }
 
 .nav_div {
-    width: calc(370 / 1180 * 100%);
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-.header_nav {
-    width: calc(306 / 370 * 100%);
+    gap: 40px;
 }
 
 .nav_ul {
     display: flex;
-    justify-content: space-between;
+    gap: 32px;
 }
 
 .list {
@@ -124,7 +118,6 @@
 }
 
 .description {
-    width: calc(348 / 380 * 100%);
     margin: 0 16px 24px;
     font-family: Kanit;
     font-size: 16px;
@@ -133,9 +126,9 @@
 }
 
 .time {
-    width: calc(108 / 380 * 100%);
+    margin-left: 16px;
     display: flex;
-    justify-content: space-between;
+    gap: 11px;
     align-items: center;
 }
 
