@@ -116,8 +116,7 @@
 
 
 .image_title {
-    margin-top: 16px;
-    margin-bottom: 8px;
+    margin: 16px 16px 8px;
     font-family: Kanit;
     font-size: 24px;
     font-weight: 500;
@@ -126,13 +125,11 @@
 
 .description {
     width: calc(348 / 380 * 100%);
-    margin-bottom: 24px;
+    margin: 0 16px 24px;
     font-family: Kanit;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
 }
 
 .time {
@@ -199,3 +196,19 @@
 }
 
 /* Start Footer  */
+.main_footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 31px 632px;
+}
+
+.footer_text {
+    font-family: Pridi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
