@@ -1,0 +1,21 @@
+@media(max-width: 400px) {
+
+    /* Header  */
+    .fa-bars {
+        display: block;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    /* Article1 */
+    .article_div {
+        flex-wrap: wrap;
+    }
+
+    /* Article2  */
+    .images_div {
+        flex-wrap: wrap;
+    }
+}

@@ -1,1 +1,14 @@
-/* Start Header  */
+
+@media(max-width: 930px) {
+/* Article1  */
+    .card3 {
+        display: none;
+    }
+    /* Article2  */
+    .all_item {
+        flex-wrap: wrap;
+    }
+    .images_div {
+        flex-direction: row;
+    }
+}
